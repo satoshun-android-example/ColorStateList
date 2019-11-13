@@ -5,11 +5,19 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <Button
-    android:id="@+id/color_state_alpha"
+  <TextView
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_marginTop="16dp"
-    android:text="ColorStateList alpha"
+    android:text="TEXT COLOR"
+    android:textColor="@color/colorPrimary"
+    tools:ignore="HardcodedText" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:text="alpha 0.20 TEXT COLOR"
+    android:textColor="@color/color_primary_20"
     tools:ignore="HardcodedText" />
 </LinearLayout>
