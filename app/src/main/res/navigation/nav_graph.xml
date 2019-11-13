@@ -14,4 +14,8 @@
   <fragment
     android:id="@+id/nav_color_state_list_alpha"
     android:name="com.github.satoshun.example.main.colorstatelistalpha.ColorStateListAlphaFragment" />
+
+  <fragment
+    android:id="@+id/nav_color_state_list_shape_solid"
+    android:name="com.github.satoshun.example.main.colorstatelistshapesolid.ColorStateListShapeSolidFragment" />
 </navigation>

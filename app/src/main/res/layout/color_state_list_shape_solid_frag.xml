@@ -5,19 +5,19 @@
   android:layout_height="match_parent"
   android:orientation="vertical">
 
-  <Button
-    android:id="@+id/color_state_alpha"
+  <TextView
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_marginTop="16dp"
-    android:text="ColorStateList alpha"
+    android:background="@drawable/shape_solid_50"
+    android:text="0.5.0 Shape SOLID"
     tools:ignore="HardcodedText" />
 
-  <Button
-    android:id="@+id/shape_solid"
+  <TextView
     android:layout_width="match_parent"
     android:layout_height="64dp"
     android:layout_marginTop="16dp"
-    android:text="Shape Solid"
+    android:background="@drawable/shape_solid_20"
+    android:text="0.2.0 Shape SOLID"
     tools:ignore="HardcodedText" />
 </LinearLayout>

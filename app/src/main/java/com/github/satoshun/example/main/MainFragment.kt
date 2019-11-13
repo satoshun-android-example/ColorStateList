@@ -27,5 +27,9 @@ class MainFragment : Fragment() {
     binding.colorStateAlpha.setOnClickListener {
       findNavController().navigate(R.id.nav_color_state_list_alpha)
     }
+
+    binding.shapeSolid.setOnClickListener {
+      findNavController().navigate(R.id.nav_color_state_list_shape_solid)
+    }
   }
 }
