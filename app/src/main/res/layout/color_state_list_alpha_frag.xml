@@ -56,4 +56,13 @@
     android:text="alpha 0.50 BACKGROUND COLOR"
     app:backgroundTint="@color/color_primary_50"
     tools:ignore="HardcodedText" />
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/rectangle"
+    android:text="state list"
+    app:backgroundTint="@color/color_primary_state"
+    tools:ignore="HardcodedText" />
 </LinearLayout>
